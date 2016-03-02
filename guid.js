@@ -1,15 +1,14 @@
 /*!
- * bgenius JavaScript Library bgenius.guid v1.0.0
+ * bgenius JavaScript Library jif-guid v1.0.0
  * http://bgenius.cn/
  *
  * Copyright 2014, Arthur.King
- * Released under the the Apache License Version 2.0.
- * http://bbteam.cn/license
- *
+ * Released under the the Apache License MIT.
+ * http://bgenius.cn/license
  *
  * Date: Mon Nov 21 21:11:03 2015 -0500
  */
-//表示全局唯一标识符 (GUID)。
+//Generate GUID.
 
 function Guid(g){
 
@@ -30,7 +29,6 @@ function Guid(g){
      }
 
      //返回一个值，该值指示 Guid 的两个实例是否表示同一个值。
-
      this.Equals = function(o){
 
          if (o && o.IsGuid){
@@ -48,11 +46,9 @@ function Guid(g){
      }
 
      //Guid对象的标记
-
      this.IsGuid = function(){}
 
      //返回 Guid 类的此实例值的 String 表示形式。
-
      this.ToString = function(format){
 
          if(typeof(format) == "string"){
@@ -80,7 +76,6 @@ function Guid(g){
      }
 
      //由字符串加载
-
      function InitByString(arr, g){
 
          g = g.replace(/\{|\(|\)|\}|-/g, "");
@@ -106,7 +101,6 @@ function Guid(g){
      }
 
      //由其他类型加载
-
      function InitByOther(arr){
 
          var i = 32;
@@ -170,11 +164,9 @@ function Guid(g){
 }
 
 //Guid 类的默认实例，其值保证均为零。
-
 Guid.Empty = new Guid();
 
 //初始化 Guid 类的一个新实例。
-
 Guid.NewGuid = function(){
 
      var g = "";
