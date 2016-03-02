@@ -1,13 +1,13 @@
 /*!
- * bbteam JavaScript Library bbteam.guid v1.0.0
- * http://bbteam.cn/
+ * bgenius JavaScript Library bgenius.guid v1.0.0
+ * http://bgenius.cn/
  *
  * Copyright 2014, Arthur.King
  * Released under the the Apache License Version 2.0.
  * http://bbteam.cn/license
  *
  *
- * Date: Mon Nov 21 21:11:03 2011 -0500
+ * Date: Mon Nov 21 21:11:03 2015 -0500
  */
 //表示全局唯一标识符 (GUID)。
 
